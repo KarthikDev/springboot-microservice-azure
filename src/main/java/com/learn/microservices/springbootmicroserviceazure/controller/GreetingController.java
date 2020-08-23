@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-	@GetMapping(value = "/{name}")
+	@GetMapping(value = "greeting/{name}")
 	public String sayHello(@PathVariable String name) {
 		
 		return "Hello "+name+"! Welcome to Azure Webapp Service";
