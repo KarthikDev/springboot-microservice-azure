@@ -10,7 +10,7 @@ public class GreetingController {
 	@GetMapping(value = "/")
 	public String sayHello() {
 		
-		return "Hello "+name+"! Welcome to Azure Webapp Service";
+		return "Hello! Welcome to Azure Webapp Service";
 	}
 	
 }
