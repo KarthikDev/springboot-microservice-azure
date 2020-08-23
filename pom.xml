@@ -69,7 +69,7 @@
 			       <resourceGroup>microservices</resourceGroup>
 			       <appName>spring-microservice</appName>
 			       <region>westeurope</region>
-			       <pricingTier>F1</pricingTier>
+			       <pricingTier>ASP-microservices-9299 (F1: Free)</pricingTier>
 			       <runtime>
 			         <os>linux</os>
 			         <javaVersion>jre8</javaVersion>
